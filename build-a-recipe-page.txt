@@ -1,0 +1,37 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Peanutcake</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>Peanutcake</h1>
+    <p>A delicious cake with peanuts and chocolate.</p>
+  <section>
+    <h2>Ingredients</h2>
+  <ul>
+    <li>Peanuts</li>
+    <li>Flour</li>
+    <li>Chocolate</li>
+    <li>Sugar</li>
+    <li>Eggs</li>
+    </body>
+  </section>
+  <section>
+    <h2>Instructions</h2>
+    <ol>
+      <li>Preheat oven to 180°C.</li>
+      <li>Mix 2 eggs, 1 cup sugar, and ½ cup oil.</li>
+      <li>Add ½ cup peanut butter and mix well.</li>
+      <li>Stir in 1½ cups flour, 1 tsp baking powder, and a pinch of salt.</li>
+      <li>Pour into a greased pan.</li>
+      <li>Bake 35–40 minutes.</li>
+  </section>
+</html>
+  <img src="https://shortgirltallorder.com/" alt="A delicious cake".>
+
+
+** end of index.html **
+
