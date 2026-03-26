@@ -1,0 +1,36 @@
+#Monthly budget calculator
+def main():
+    #User income
+    print("Welcome to MBC!")
+    user_income=float(input("Enter monthly income: "))
+    #User expenses
+    rent=float(input("Monthly rent: "))
+    food=float(input("Monthly food expenses: "))
+    transportation=float(input("Monthly transportation: "))
+    other=float(input("Other: "))
+    #List expenses
+    expenses=[rent, food, transportation, other]
+    #Total expenses
+    total_expenses=sum(expenses)
+    #Savings
+    savings=user_income-total_expenses
+    #Output
+    print(f"Total expenses: ${total_expenses}")
+    print(f"Savings: ${savings}")
+    #Percentage of income spent
+    def percentage_spent():
+        percentage=(total_expenses/user_income)*100
+        return percentage
+    print(f"Percentage of income spent: {percentage_spent():.2f}%")
+    #Result
+    def result():
+        if savings > 0:
+            return "You are within your budget!"
+        elif savings == 0:
+            return "You are breaking even."
+        elif savings < 0:
+            return "You are over budget!"
+        else:
+            return "Error"
+    print(result())
+main()
